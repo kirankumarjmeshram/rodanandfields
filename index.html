@@ -8,32 +8,66 @@
     href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet"
   />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
     <title>Rodan + Fields® | Dermatologist Inspired Skincare Products</title>
 
     <style>
         #navbar{
             display: flex;
+            flex-direction: column;
+        }
+        #navbar>ul{
+            display: flex;
+            flex-direction: row;
+            width: 90%;
+            justify-content: center;
+        }
+        #navbar>ul>div{
+            padding: 0% 3%;
+            
+        }
+        #navbar>ul>div{
+            font-size: x-small;
+        }
+        #navbar1{
+            display: flex;
             flex-direction: row;
             background-color: antiquewhite;
         }
-        #navbar >div{
+        #navbar1 >div{
             padding-left: 6%;
             padding-right: 6%;
         }
-        #navbar >div>a{
-            color: black;
+        a{
+            color:#606060;
+            text-decoration: none;
+        }
+        ul{
+            list-style-type: none; 
         }
         #navbar3{
             display: flex;
             flex-direction: row;
+        }
+
+        footer{
+            display: flex;
+            flex-direction: row;
+        }
+        .footer1{
+            display: flex;
+            flex-direction:row;
         }
     </style>
 
 </head>
 <body>
     <!-- https://www.rodanandfields.com/en-us/ -->
-
-    <nav id="navbar">
+<!-- Nav Bar Part -->
+<nav id="navbar">
+    <div id="navbar1">
         <div>
             <a href="#">FIND A CONSULTANT</a>
         </div>
@@ -62,10 +96,91 @@
                 English
             </div>
         </div>
-    </nav>
+    </div>
+    <hr>
 
-   <footer>
-       
+    <ul>
+       <div>
+           <li>
+               <a href="#"><span>SHOP</span></a>
+           </li>
+       </div> 
+       <div>
+        <li>
+            <a href="#"><span>BEST SELLERS</span></a>
+        </li>
+    </div>
+    <div>
+        <li>
+            <a href="#"><span>OUR STORY</span></a>
+        </li>
+    </div>
+    <div>
+        <li>
+            <a href="#"><span>PERKS PROGRAM</span></a>
+        </li>
+    </div>
+    <div>
+        <li>
+            <a href="#"><span>BECOME A CONSULTANT</span></a>
+        </li>
+    </div>
+    <div>
+        <li>
+            <a href="#"><span>BLOG</span></a>
+        </li>
+    </div>
+    <div>
+        <li>
+            <a href="#"><span></span></a>
+        </li>
+    </div>
+    </ul>
+</nav>
+    
+<!-- body -->
+
+
+
+
+
+    <!-- Footer part -->
+   <footer id="footer">
+       <div  class="footer1">
+           <div>
+            <p>ABOUT R&F</p>
+            <ul>
+                <li><a href="#">PRESS ROOM</a></li>
+                <li><a href="#">CONPANY INFO</a></li>
+                <li><a href="#">EXECUIVE TEAM</a></li>
+                <li><a href="#">CAREERS</a></li>
+                <li><a href="#">R+F RECYCLING PROGRAM</a></li>
+                <li><a href="#">BLOG</a></li>
+            </ul>
+           </div>
+           <div>
+               <P>HELP</P>
+               <ul>
+                   <li><a href="#">PRODUCT AND HELP CENTER</a></li>
+                   <li><a href="#">SHIPPING</a></li>
+                   <li><a href="#">SATISFACTION GURANTEE</a></li>
+                   <li><a href="#">PROMOTIONAL TERMS & CONDITIONS</a></li>
+                   <li><a href="#">R+F FACTS</a></li>
+                   <li><a href="#">KLARNA</a></li>
+                   <li><a href="#">SITE MAP</a></li>
+               </ul>
+           </div>
+       </div>
+       <div>
+           <DIV>Let's Get Social</DIV>
+           <ul>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+             <a href="#" class="fa fa-pinterest"></a>
+           </ul>
+       </div>
    </footer>
 
     
