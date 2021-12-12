@@ -58,91 +58,83 @@ let productsData = [
     {
         img:"https://www.rodanandfields.com/en-us/medias/UNWA125-UNTJ125-UNTT030-UNSS030-UNBLEMISH-Explainer-570x570.png?context=bWFzdGVyfGltYWdlc3w1NDk5N3xpbWFnZS9wbmd8aW1hZ2VzL2g2YS9oOTYvMTM3NTgzODQ4NjUzMTAucG5nfDNhOWMxMGU5MjIzMGEyZjNhNTZjNWVkMjUxYmJjODI5YmNlODhjODBkNzJjZTA4ZDk1YTk0Yzk0ZjkyNzdhZmU",
         name: "UNBLEMISH Regimen",
-        priceInnerH:"<span style="color: #31c2e8;"> PC PERKS</span>"
+        priceInnerH:"$190.00 | $171.00 With <span style="color: #31c2e8;"> PC PERKS</span>"
     },
 
     {
-        img:"",
-        name: "",
-        priceInnerH:"<span style="color: #31c2e8;"> PC PERKS</span>"
+        img:"https://www.rodanandfields.com/en-us/medias/SOWA125-SOTT050-SOMO050-SOSS050-SOOTHE-Regimen-Explainer-570x570.png?context=bWFzdGVyfGltYWdlc3w0MDc1MHxpbWFnZS9wbmd8aW1hZ2VzL2g5Zi9oYWMvMTM3NTgzODUxMjc0NTQucG5nfGFmOTE5ZGY1MjdhZmFkNDhhNzNiOTkyYTYzODAxNzI4OTE3ZGQ5Zjk3YzRlOGRlNTIzYzU3MzZlMTQzNGEzNTI",
+        name: "SOOTHE Regimen",
+        priceInnerH:"$185.00 | $166.00 With <span style="color: #31c2e8;"> PC PERKS</span>"
     },
 
     {
-        img:"",
-        name: "",
-        priceInnerH:"<span style="color: #31c2e8;"> PC PERKS</span>"
+        img:"https://www.rodanandfields.com/en-us/medias/RCWA125-RCTTO50-RCSP040-REGHARGE-Regimen-Explainer-570x570.png?context=bWFzdGVyfGltYWdlc3wyNTQ5NHxpbWFnZS9wbmd8aW1hZ2VzL2hkNi9oNDMvMTM3NTgzODQ2MDMxNjYucG5nfGQ4MzYxODU0ZDcxOTZiOTdlODg3NmZmZTAzZGQ1MGQ5Yjg0YzBhODk3NzJhYzM5NzZlNjQ1NjQzNGQ3NTY0ZmE",
+        name: "RECHARGE Regimen",
+        priceInnerH:"$134.00 |  $120.00 With <span style="color: #31c2e8;"> PC PERKS</span>"
     },
 
     {
-        img:"",
-        name: "",
-        priceInnerH:"<span style="color: #31c2e8;"> PC PERKS</span>"
+        img:"https://www.rodanandfields.com/en-us/medias/spotless-regimen-UNRS001.jpg?context=bWFzdGVyfGltYWdlc3wxOTY4NHxpbWFnZS9qcGVnfGltYWdlcy9oM2QvaGU3LzEzODE0NjU0MzA0Mjg2LmpwZ3xjNGJiOWMyMDczMDlmMzU4OWRjM2FiNjhkNjgxY2QyYzY1ZjI1NzNlY2NlNWZmMGE1NWZjNTUxMjNkOGIzY2Q3",
+        name: "SPOTLESS Regimen",
+        priceInnerH:"$89.00 |  $80.00 With <span style="color: #31c2e8;"> PC PERKS</span>"
     },
 
     {
-        img:"",
-        name: "",
-        priceInnerH:"<span style="color: #31c2e8;"> PC PERKS</span>"
+        img:"https://www.rodanandfields.com/en-us/medias/pore-cleansing-md-system-XTPCS01.jpg?context=bWFzdGVyfGltYWdlc3wxMjEzMXxpbWFnZS9qcGVnfGltYWdlcy9oMWQvaDU3LzEzODE0NjU0Nzk1ODA2LmpwZ3w5MTFmNzZjMzJjNTI0YmExMGZkNTUwNDQxODZlMjY5ZGUxNDdjZWRkYjZjZTRiMDRkNmMxMGNjNWQ1MThkYzcx",
+        name: "Pore Cleansing MD System",
+        priceInnerH:"$260.00 |  $234.00 With <span style="color: #31c2e8;"> PC PERKS</span>"
     },
 
     {
-        img:"",
-        name: "",
-        priceInnerH:"<span style="color: #31c2e8;"> PC PERKS</span>"
+        img:"https://www.rodanandfields.com/en-us/medias/DERDLB1-cat.jpg?context=bWFzdGVyfGltYWdlc3wxMDkyNHxpbWFnZS9qcGVnfGltYWdlcy9oNGEvaDE4Lzg4MjE4NDQxNDgyNTQuanBnfDVmY2E4ZmM1YzdlNjQxMmI4YjgzNGY4MDIwNWVlZDc2MmNhYzVjN2FjZmQyMTFiNmU1NDc4Y2RiNGQyOWFmZjk",
+        name: "Radiant Defense Liquid Brush",
+        priceInnerH:"$38.00 |  $34.00 With <span style="color: #31c2e8;"> PC PERKS</span>"
     },
 
     {
-        img:"",
-        name: "",
-        priceInnerH:"<span style="color: #31c2e8;"> PC PERKS</span>"
+        img:"https://www.rodanandfields.com/en-us/medias/ESMRB01-720x600-Desktop-1-.jpg?context=bWFzdGVyfGltYWdlc3w0MTM2OHxpbWFnZS9qcGVnfGltYWdlcy9oZWYvaDMxLzE0MDMyNzUyNTc0NDk0LmpwZ3w5OTBlOTQ0ZDA5MjhhMzJiZDc3NWI4MGQ4Zjc3ZGVmYmJmM2M0YmU5MDkxNTc5NmMzOTJiNjBiMzEwZDZhOTc1",
+        name: "ESSENTIALS Complete Eye Makeup Remover",
+        priceInnerH:"$32.00 |  $28.00 With <span style="color: #31c2e8;"> PC PERKS</span>"
     },
 
     {
-        img:"",
-        name: "",
-        priceInnerH:"<span style="color: #31c2e8;"> PC PERKS</span>"
-    },
-
-    {
-        img:"",
-        name: "",
-        priceInnerH:"<span style="color: #31c2e8;"> PC PERKS</span>"
-    },
-
-    {
-        img:"",
-        name: "",
-        priceInnerH:"<span style="color: #31c2e8;"> PC PERKS</span>"
-    },
-
-    {
-        img:"",
-        name: "",
-        priceInnerH:"<span style="color: #31c2e8;"> PC PERKS</span>"
-    },
-
-    {
-        img:"",
-        name: "",
-        priceInnerH:"<span style="color: #31c2e8;"> PC PERKS</span>"
-    },
-
-    {
-        img:"",
-        name: "",
-        priceInnerH:"<span style="color: #31c2e8;"> PC PERKS</span>"
-    },
-
-    {
-        img:"",
-        name: "",
-        priceInnerH:"<span style="color: #31c2e8;"> PC PERKS</span>"
-    },
-
-    {
-        img:"",
-        name: "",
-        priceInnerH:"<span style="color: #31c2e8;"> PC PERKS</span>"
+        img:"https://www.rodanandfields.com/en-us/medias/ESBL200-cat.jpg?context=bWFzdGVyfGltYWdlc3wyMjg3NHxpbWFnZS9qcGVnfGltYWdlcy9oZTYvaDJhLzg4MjE4NDQ4NjkxNTAuanBnfGQ2M2NlOTA4ZWU1ODZjZjkyNDQwZTNhN2VhM2FjM2E1MmZjMjI3YWEyMjkzYmRmZDQ5ZGM2OGJlMWI4MjJjYTA",
+        name: "ESSENTIALS Daily Body Moisturizer",
+        priceInnerH:"$27.00 |  $24.00 With <span style="color: #31c2e8;"> PC PERKS</span>"
     }
 
 ]
+
+
+function showProductsData(){
+    productsData.forEach(function (el){
+        let parent = document.getElementById("products");
+        let div = document.createElement("div");
+        let img = document.createElement("img");
+        img.src = el.img;
+
+  // on clicking get the product description page
+        //  img.onclick= function(){
+        //     window.location.href = el.productlink;
+        //    }
+
+        let name = document.createElement("p");
+        name.textContent =el.name;
+        let price = document.createElement("div");
+        price.textContent =el.priceInnerH;
+        let add2bag_button= document.createElement("button")
+        add2bag_button.innerText = "ADD TO BAG"
+       
+        // fav_button.onclick = function(){
+          
+          
+        //     addtofav(el);
+        //   }
+           
+        div.append(img, name,price,add2bag_buttonbutton);
+         parent.append(div);
+   
+    })
+}
+
+showProductsData();
