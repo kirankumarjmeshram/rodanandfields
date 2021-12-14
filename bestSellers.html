@@ -138,13 +138,13 @@ let productsData = [
         img:"https://www.rodanandfields.com/en-us/medias/ESBL200-cat.jpg?context=bWFzdGVyfGltYWdlc3wyMjg3NHxpbWFnZS9qcGVnfGltYWdlcy9oZTYvaDJhLzg4MjE4NDQ4NjkxNTAuanBnfGQ2M2NlOTA4ZWU1ODZjZjkyNDQwZTNhN2VhM2FjM2E1MmZjMjI3YWEyMjkzYmRmZDQ5ZGM2OGJlMWI4MjJjYTA",
         name: "ESSENTIALS Daily Body Moisturizer",
         priceInnerH:"$27.00 |  $24.00 With <span style="color: #31c2e8;"> PC PERKS</span>"
-    }
+    },
 
 ]
 
 
 function showProductsData(){
-    productsData.forEach(function (el){
+    productsData.forEach((el)=>{
         let parent = document.getElementById("products");
         let div = document.createElement("div");
         let img = document.createElement("img");
@@ -175,4 +175,15 @@ function showProductsData(){
 }
 
 showProductsData()
+
+
+
+
+
+
+
+
+
+
+
 </script>
