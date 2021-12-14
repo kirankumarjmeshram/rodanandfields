@@ -59,6 +59,43 @@
             display: flex;
             flex-direction:row;
         }
+
+        /* body */
+        #body1{
+            position: relative;
+            text-align: center;
+            justify-content: center;
+
+            margin: 0px 135px;
+           
+        }
+        @media screen and (max-width: 1550px) {
+        #body1 {
+            margin: 0px;
+            bottom: 20px;
+         }
+        }
+        #imgbody1{
+            width: 100%;
+        }
+        #shopnowbody1{
+            position: absolute;
+            width: 35%;
+            top: 100px;
+            left: 5%;
+
+        }
+        #shopbestsellerbody2 > a{
+            display: flex;
+            flex-direction: row-reverse;
+            margin-right: 10px;
+            
+        }
+
+        #shopbody2{
+            background-color: rgb(247,244,239);
+            height: 550px;
+        }
     </style>
 
 </head>
@@ -138,10 +175,31 @@
 </nav>
     
 <!-- body -->
+<div>
+    <div id="body">
+        <div id="body1">
+            <img src="https://www.rodanandfields.com/en-us/medias/shot-1-best-sellers-homepage-US-Total-rf-serum-0040-0045-V2-3-2-1440x600-progressive.jpg?context=bWFzdGVyfHJvb3R8MjgwNDk3fGltYWdlL2pwZWd8aDVkL2hmMy8xNDE2MTMxMjE4NjM5OC5qcGd8NTRkNWQzYTJmZmQ3YTM2NzkyNDZmMmMxMzMxZGQwYTUyZjQ0M2E0NTEyOTRlZDhjZWQ4YzdhNGQyZjExMDY2Yw" alt="" id="imgbody1">
+            <div id="shopnowbody1">
+                <h2>From Us,With Love</h2>
+                <p>Shop Bestsellers + treat your loved ones to life-changing skincare.</p>
+                <div><a href="./bestSellers.html">SHOP NOW</a></div>
+            </div>
+        </div>
+        <div id="body2">
+            <div id="shopbestsellerbody2">
+                <a href="./bestSellers.html">Shop Best Sellers</a>
+            </div>
+            <div id="shopbody2">
+
+            </div>
+        </div>
+        
+    </div>
+</div>
 
 
 
-
+<!-- body -->
 
     <!-- Footer part -->
    <footer id="footer">
