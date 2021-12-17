@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./styles/navbar.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <title>Document</title>
+</head>
+<body>
+    <nav id="navbar"></nav> 
+
+    <div> 
+                <!-- https://www.rodanandfields.com/en-us/medias/AAWA125-AATN125-AATT030-AAPM030-REDEFINE-Regimen-Explainer-570x570.png?context=bWFzdGVyfGltYWdlc3wzMTE2NXxpbWFnZS9wbmd8aW1hZ2VzL2hkNy9oMWMvMTM3NTgzODQwNzg4NzgucG5nfDE5NTM4Yzc1OTA0MWNiY2M5NzYwMDZhMTQ0NGVmZDEzZmRhYzVlZWE4YWRhODk3NWQ0ZGU1NDlhNzVjZTUyOTU -->
+    <div #cartPart1></div>
+    <div #cartPart2>
+        <div>
+            ORDER SUMMARY
+        </div>
+        <div>
+            <div>SUNTOTAL <span>$155.00</span></div>
+            <div>SHIPPING <span>Calculated At Checkout</span></div>
+            <hr>
+            <div>
+                Estimated Total <span>$155.00</span>
+            </div>
+            <div>4 interest-free payments of $38.75 with Klarna. Learn more</div>
+        </div>
+        
+        <div>
+            <input type="text" placeholder="Enter Promo Cose"><button>APPLY</button>
+        </div>
+        <div></div>
+    </div>
+    
+    
+    </div>
+</body>
+</html>
+<script type="module">
+    import navbar from "./components/navbar.js"
+
+    let nav = document.getElementById("navbar");
+    nav.innerHTML = navbar();
+</script>
+

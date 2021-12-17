@@ -20,9 +20,10 @@ function navbar(){
             </span>
         </div>
         <div>
-            <span class="material-icons">
-                production_quantity_limits
-            </span>
+        <a href="./cart.html"><span class="material-icons">
+        production_quantity_limits
+    </span></a>
+            
         </div>
         <div>
             English
