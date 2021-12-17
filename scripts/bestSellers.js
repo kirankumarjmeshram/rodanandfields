@@ -130,7 +130,10 @@ function showProductsData(){
           
         //     addtofav(el);
         //   }
-           
+
+        add2bag_button.onclick = function () {
+            location.href = "./productLandingPg.html";
+        }
         div.append(img, name,price,add2bag_button);
          parent.append(div);
    
