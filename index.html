@@ -8,138 +8,22 @@
     href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet"
   />
-
+  <link rel="stylesheet" href="./styles/navbar.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+<link rel="stylesheet" href="./styles/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
     <title>Rodan + Fields® | Dermatologist Inspired Skincare Products</title>
 
     <style>
-        #navbar{
-            display: flex;
-            flex-direction: column;
-        }
-        #navbar>ul{
-            display: flex;
-            flex-direction: row;
-            width: 90%;
-            justify-content: center;
-            
-        }
-        #navbar>ul>div{
-            padding: 0% 3%;
-            
-        }
-        #navbar>ul>div{
-            font-size: x-small;
-        }
-        #navbar1{
-            display: flex;
-            flex-direction: row;
-        }
-        #navbar1 >div{
-            padding-left: 6%;
-            padding-right: 6%;
-        }
-        a{
-            color:#606060;
-            text-decoration: none;
-        }
-        #navbar2{
-           margin-top: -1px;
-        }
-        ul{
-            list-style-type: none; 
-        }
-        #navbar3{
-            display: flex;
-            flex-direction: row;
-        }
-
+        
        
 
         /* body */
-        #body{
-            margin-top: 50px;
-        }
-        #body1{
-            position: relative;
-            text-align: center;
-            justify-content: center;
-            margin: 0px 135px;
-            
-           
-        }
-        @media screen and (max-width: 1350px) {
-        #body1 {
-            margin: 0px;
-            bottom: 20px;
-            
-         }
-        }
-        #imgbody1{
-            width: 100%;
-        }
-        #shopnowbody1{
-            position: absolute;
-            width: 25%;
-            top: 100px;
-            left: 5%;
-
-        }
-        #shopnowbody1 > h2{
-            font-size: 40px;
-            font-family: Arial, Helvetica, sans-serif;
-            color: #222222;
-            font-weight: 200;
-        }
-        #shopnowbody1 > p{
-            font-size: 20px;
-            margin: 0px 35px;
-        }
-
-
-        #shopbestsellerbody2 > a{
-            display: flex;
-            flex-direction: row-reverse;
-            margin-right: 10px;
-            
-        }
-
-        #shopbody2{
-            background-color: rgb(247,244,239);
-            height: 550px;
-        }
-        #body2{
-            display: flex;
-            flex-direction: column;
-            
-        }
-        #shopbody2{
-           display: grid;
-           grid-template-columns: 25% 75%;
-        }
-        #shopbody2-1{
-            background-color: rgb(203, 203, 228);
-            position: relative;
-        }
-        #shopbody2-1>div{
-            position: absolute;
-            
-            width: 100%;
-        }
-        #shopbody2-1>div>img{
-            width: 100%;
-            
-        }
+       
 
         /* footer */
-        #footer1{
-            display: flex;
-        }
-        .footer1-1{
-            display: flex;
-            flex-direction:row;
-        }
+     
        
     </style>
 
@@ -148,79 +32,7 @@
     <!-- https://www.rodanandfields.com/en-us/ -->
 <!-- Nav Bar Part -->
 <nav id="navbar">
-    <div id="navbar1">
-        <div>
-            <a href="#">FIND A CONSULTANT</a>
-        </div>
-        <div>
-            <a href="#"><img src="https://www.rodanandfields.com/en-us/medias/rf-logo.svg?context=bWFzdGVyfGltYWdlc3w3MzczfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g2MC9oYWIvODgyMjE0NzE4NjcxOC5zdmd8YjNmMmU2YTg5MTM0NTMzM2Y2ODg2ZmRkZTJhNmY2OWZhYmYyYjk5NWQxODkxODFiYjVkY2MxY2NjOWRlMzA5OA" alt=""></a>
-        </div>
-        <div id="navbar3">
-            <div>
-                Search
-                <span class="material-icons">
-                    search
-                </span>
-            </div>
-            <div>
-                <a href="./signin.html">Sign in</a>
-                <span class="material-icons">
-                    person
-                </span>
-            </div>
-            <div>
-                <span class="material-icons">
-                    production_quantity_limits
-                </span>
-            </div>
-            <div>
-                English
-            </div>
-        </div>
-        
-    </div>
-    <hr>
-    <hr>
-    <hr>
-    <hr>
-
-    <ul id="navbar2">
-       <div>
-           <li>
-               <a href="#"><span>SHOP</span></a>
-           </li>
-       </div> 
-       <div>
-        <li>
-            <a href="#"><span>BEST SELLERS</span></a>
-        </li>
-    </div>
-    <div>
-        <li>
-            <a href="#"><span>OUR STORY</span></a>
-        </li>
-    </div>
-    <div>
-        <li>
-            <a href="#"><span>PERKS PROGRAM</span></a>
-        </li>
-    </div>
-    <div>
-        <li>
-            <a href="#"><span>BECOME A CONSULTANT</span></a>
-        </li>
-    </div>
-    <div>
-        <li>
-            <a href="#"><span>BLOG</span></a>
-        </li>
-    </div>
-    <div>
-        <li>
-            <a href="#"><span></span></a>
-        </li>
-    </div>
-    </ul>
+    
 </nav>
     
 <!-- body -->
@@ -336,6 +148,9 @@
     
 </body>
 </html>
-<script>
+<script type="module">
+    import navbar from "./components/navbar.js"
 
+    let nav = document.getElementById("navbar");
+    nav.innerHTML = navbar();
 </script>

@@ -1,0 +1,73 @@
+#body{
+    margin-top: 50px;
+}
+#body1{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 135px;
+    
+   
+}
+@media screen and (max-width: 1350px) {
+#body1 {
+    margin: 0px;
+    bottom: 20px;
+    
+ }
+}
+#imgbody1{
+    width: 100%;
+}
+#shopnowbody1{
+    position: absolute;
+    width: 25%;
+    top: 100px;
+    left: 5%;
+
+}
+#shopnowbody1 > h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    font-weight: 200;
+}
+#shopnowbody1 > p{
+    font-size: 20px;
+    margin: 0px 35px;
+}
+
+
+#shopbestsellerbody2 > a{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 10px;
+    
+}
+
+#shopbody2{
+    background-color: rgb(247,244,239);
+    height: 550px;
+}
+#body2{
+    display: flex;
+    flex-direction: column;
+    
+}
+#shopbody2{
+   display: grid;
+   grid-template-columns: 25% 75%;
+}
+#shopbody2-1{
+    background-color: rgb(203, 203, 228);
+    position: relative;
+}
+#shopbody2-1>div{
+    position: absolute;
+    
+    width: 100%;
+}
+#shopbody2-1>div>img{
+    width: 100%;
+    
+}

@@ -1,0 +1,72 @@
+#navbar{
+    
+}
+#navbar>ul{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: center;
+    
+}
+#navbar>ul>div{
+    padding: 0% 3%;
+    
+}
+#navbar>ul>div{
+    font-size: x-small;
+}
+#navbar1{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 1px;
+    
+}
+#navbar1>div:nth-child(2){
+    margin-left: 300px;
+}
+
+#navbar1>div:nth-child(1)>a{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+#navbar1 >div{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+a{
+    color:#606060;
+    text-decoration: none;
+}
+#navbar2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #606060;
+    padding: 2PX;
+
+}
+#search , #signin {
+   padding-bottom: 10px;
+}
+
+#navbar2>div{
+    padding-left: 10px;
+}
+#navbar2>div>a{
+    margin-bottom: 10px;
+}
+
+#navbar3{
+   margin: 0px 200px;
+   
+}
+ul{
+    list-style-type: none; 
+}
+#navbar3 > div > li > a > span{
+    font-size: 13px;
+}
