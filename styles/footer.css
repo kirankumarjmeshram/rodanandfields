@@ -5,3 +5,30 @@
     display: flex;
     flex-direction:row;
 }
+
+.footer1-1 > div:nth-child(1) , .footer1-1 > div:nth-child(2){
+    padding: 20px;
+}
+.footer1-1 > div:nth-child(1)>p , .footer1-1 > div:nth-child(2)>p{
+font-size: 14px;
+font-weight: 600;
+margin-left: 40px;
+}
+
+.footer1-2{
+margin-left: 850px;
+padding-top: 27px;
+}
+
+.footer1-2>div{
+ font-size: 25px;
+ padding-left:25PX ;
+    }
+
+.footer1-2>ul>a:nth-child(1){
+    padding-left: 0px;
+}
+.footer1-2>ul>a{
+        padding: 5px 25px;
+        
+    }
