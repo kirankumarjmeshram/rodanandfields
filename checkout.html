@@ -12,9 +12,135 @@
   <link rel="stylesheet" href="./styles/footer.css">
   <link rel="stylesheet" href="./styles/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
-    <title>Document</title>
+  <link rel="stylesheet" href="./styles/checkout.css"> 
+  <title>Checkout</title>
+
+  
 </head>
 <body>
-    
+    <nav id="navba"></nav>
+    <div id = "page_layout">
+        <div id = "place_order">
+            <h3>PLACE YOUR ORDER IN 4 EASY STEPS</h3>
+        </div>
+        <div id = "page_layout2">
+            <div id = "signed">
+                <div class = "count_mark">
+                    &#10003;
+                </div>
+                <div>
+                    <h2>SIGNED IN AS</h2>
+                </div>
+                <div>
+                    <h2 id = "billie">kirankumarjm@gmail.com</h2>
+                </div>
+            </div>
+
+            <div id = "delivery">
+                <div id = "2nd_count_mark" class='count_mark'>
+                    2
+                </div>
+                <div>
+                    <h2 id = "oncl">DELIVERY INFORMATION</h2>
+                </div>
+                <div>&nbsp;</div>
+                <div id = "disp1">
+                    <div>
+                        <p>In order to deliver your order, we need to gather some information from you. Please fill the form below.</p>
+                
+                        <h1>YOUR ADDRESS</h1>
+                        <div>
+                            <p id = "username_ch">KIRANKUMAR  (DEFAULT)</p>
+                            </br>
+                            <p id = "name_ch">Mr. Kirankumar Jageshwar Meshram</p>
+                            <p id = "mob_ch">+91 9876543210</p>
+                            <p>1-23-4567, Mumbai - 123-321</p>
+                            <p>MAHARASHTRA, India</p>
+                            </br>
+                            </br>
+                            </br>
+                            </br>
+                            </br>
+                            <p>EDIT</p>
+                        </div>
+                    </div>
+                    <div>&nbsp;</div>
+                    <div>&nbsp;</div>
+                    <div id = "address_butt">
+                        <button  >USE SELECTED ADDRESS</button>
+                        <button>DELIVERY TO NEW ADDRESS</button>
+                    </div>
+                </div>
+             </div>
+            </div>
+
+            <div id = "review">
+               <div id='review_disp1'>
+                    <div id = "3rd_count_mark" class='count_mark'>
+                        3
+                    </div>
+
+                    <div>
+                        <h2 onclick="">ORDER REVIEW</h2>
+                    </div>
+               </div>
+
+                <div id = "review_disp2">
+                    <h3>Please review your order to ensure your details are correct.</h3>    
+                    <h3>If you have reviewed your order, you can proceed to the next stage and make the payment.</h3>
+
+                    <div id="not_empty_cart">
+                        <div id="count"></div>
+             
+                        <div id="cart_main">
+
+                            <div id="items_details">
+
+                                 <div id="headings">
+                                     <div>ITEM(S)</div>
+                                    <div>QUANTITY</div>
+                                    <div>TOTAL</div>
+                                </div>
+                          
+                                 <div id="parent"></div>
+                            </div>
+                        </div>
+
+                        <button  id = "con_pay">CONTINUE TO PAYMENT</button>
+
+                </div>
+                
+
+            </div>
+            
+            
+            <div id = "payment">
+                <div id="payment_disp1">
+                    <div id = "4th_count_mark" class='count_mark'>
+                        4
+                    </div>
+                    <div>
+                        <a href="./congo.html"><h2>PAYMENT INFORMATION</h2></a>
+                        
+                    </div>
+                   
+                </div>
+                
+         
+            </div>
+
+        </div>
+    </div>
+    <footer id="footer"></footer>
 </body>
 </html>
+<script type="module">
+    import navbar from "./components/navbar.js"
+
+    let nav = document.getElementById("navba");
+    nav.innerHTML = navbar();
+    
+    import footer from "./components/footer.js"
+    let foot = document.getElementById("footer")
+    foot.innerHTML= footer()
+</script>

@@ -1,0 +1,240 @@
+
+        #page_layout{
+            width: 100%;
+        }
+        #place_order{
+            width: 100%;
+            height: 40px;
+            border: none;
+            border-bottom: 1px solid black;
+            margin: 0 0 0 15px;
+            
+        }
+        #place_order h3 {
+            font-family: 'Raleway', sans-serif;
+            font-size: 12px;
+            /* font-weight: 900; */
+            margin: 25px 0 0 65px;
+            letter-spacing:1.5px;
+        }
+        #page_layout2{
+            width: 95%;
+            margin-left: 3%;
+           
+            
+        }
+        #signed{
+            width: 88%;
+            height: 85px;
+            /* border: 1px solid black; */
+            display: grid;
+            grid-template-columns: 50px 160px 500px;
+            grid-template-rows: 60px;
+            gap: 10px;
+            margin-left: 70px;
+            border: none;
+            border-bottom: 1px solid black;
+        }
+        .count_mark {
+            border: 1px solid black;
+            border-radius: 50%;
+            font-size: 30px;
+            padding: 5px 0 0 15px;
+            margin-top: 10px;
+        }
+        #signed div:nth-child(2) h2{
+            font-family: Playfair Display;
+            font-size: 24px;
+            font-weight: 400;
+        }
+        #signed div:nth-child(3) h2{
+            font-family: Playfair Display;
+            font-size: 24px;
+            font-weight: 400;
+        }
+        #review_disp1{
+            width: 88%;
+            height: 85px;
+            border: 1px solid black;
+            display: grid;
+            grid-template-columns: 50px 300px;
+            grid-template-rows: 60px;
+            gap: 10px;
+            margin-left: 70px;
+            border: none;
+            border-bottom: 1px solid black;
+        }
+        #review div:nth-child(2) h2{
+            font-family: Playfair Display;
+            font-size: 24px;
+            font-weight: 400;
+        }
+        #delivery{
+            width: 88%;
+            
+            /* border: 1px solid black; */
+            display: grid;
+            grid-template-columns: 50px 550px;
+            grid-template-rows: 60px;
+            gap: 10px;
+            margin-left: 70px;
+            border: none;
+            border-bottom: 1px solid black;
+        }
+        #delivery div:nth-child(2) h2{
+            font-family: Playfair Display;
+            font-size: 24px;
+            font-weight: 400;
+        }
+        #delivery p {
+            font-size: 18px;
+            font-family: "Playfair Display", sans-serif;
+        }
+        #delivery h1{
+            font-family: Playfair Display;
+            font-size: 28px;
+            font-weight: 400;
+        }
+        #delivery div:nth-child(4) div div{
+            width: 270px;
+            height: 350px;
+            border: 2px solid black;
+        }
+        #delivery div:nth-child(4) div div p{
+            margin-left: 10px;
+            font-size: 16px;
+            font-family: Roboto, serif;
+        }
+        #address_butt{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50px;
+            gap: 10px;
+        }
+        #address_butt button:nth-child(1), #address_butt button:nth-child(2){
+            width: 100%;
+            height: 45px;
+            border: none;
+            background-color: black;
+            color: white;
+        }
+        #disp1{
+            display: block;
+        }
+        
+        #disp2{
+            /* display: grid;
+            grid-template-rows: 40% 40%;
+            grid-template-rows: 150px;
+            border: 1px solid blue;
+            gap: 70px;
+            display: none; */
+            /* border: 1px solid blue; */
+        }
+        #disp2 > div{
+            display: inline-block;
+            /* border: 1px solid black; */
+            width: 49%;
+        }
+        #disp2{
+            display: none;
+        }
+        #disp2 h3{
+            font-family: Playfair Display;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        #disp2 p{
+            font-family: Roboto, serif;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        table th{
+            /* border:  1px solid black; */
+        }
+        #review_disp2{
+            margin-left: 70px;
+            display: none;
+        }
+        #payment_disp1{
+            width: 88%;
+            /* height: 85px; */
+            /* border: 1px solid black; */
+            display: grid;
+            grid-template-columns: 50px 700px 500px;
+            grid-template-rows: 60px;
+            gap: 10px;
+            margin-left: 70px;
+            border: none;
+        }
+        #payment_disp2{
+            width: 600px;
+            margin-left: 130px;
+            display: none;
+        }
+        .img-width{
+            height: 25px;
+            /* vertical-align: center; */
+            /* height: 30px; */
+            
+        }
+        .border{
+            border: 1px solid black;
+        }
+        .text-center{
+            text-align: center;
+        }
+        #upi{
+            margin-top: 20px;
+        }
+        #WhatsApp{
+            color: green;
+            vertical-align: bottom;
+        }
+        #whatsapp-img{
+            /* width: 20px; */
+            height: 18px;
+
+        }
+        th > h1, th > h3 {
+            margin: 0px;
+        }
+        #payment-info{
+            display: none;
+        }
+        #con_pay{
+            margin-left: 50px;
+            width: 280px;
+            height: 50px;
+            border: none;
+            background-color: black;
+            color: white;
+        }
+        #card-info h3{
+            font-family: 'Raleway', sans-serif;
+            font-size: 14px;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        #card-info p:nth-child(2){
+            font-family: 'Roboto', serif;
+            font-size: 18px;
+            text-align: center;
+        }
+        #nautanki{
+            font-family: 'Roboto', serif;
+            font-size: 16px;
+            text-align: center;
+        }
+        #card-info div {
+            margin-left: 70px;
+        } 
+        #pay_order{
+            width: 280px;
+            height: 50px;
+            border: none;
+            background-color: black;
+            color: white;
+            margin-left: 150px;
+        }
+      

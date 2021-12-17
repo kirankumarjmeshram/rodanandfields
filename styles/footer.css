@@ -14,7 +14,11 @@ font-size: 14px;
 font-weight: 600;
 margin-left: 40px;
 }
-
+li{
+    font-size: 13px;
+    color: #606060;
+    line-height: 26px
+}
 .footer1-2{
 margin-left: 850px;
 padding-top: 27px;
@@ -32,3 +36,8 @@ padding-top: 27px;
         padding: 5px 25px;
         
     }
+
+#footer1-2-1{
+    padding: 35px 0px;
+    padding-left: 35px;
+}

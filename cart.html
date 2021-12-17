@@ -17,6 +17,7 @@
 </head>
 <body>
     <nav id="navbar"></nav> 
+    
 
     <div> 
                 <!-- https://www.rodanandfields.com/en-us/medias/AAWA125-AATN125-AATT030-AAPM030-REDEFINE-Regimen-Explainer-570x570.png?context=bWFzdGVyfGltYWdlc3wzMTE2NXxpbWFnZS9wbmd8aW1hZ2VzL2hkNy9oMWMvMTM3NTgzODQwNzg4NzgucG5nfDE5NTM4Yzc1OTA0MWNiY2M5NzYwMDZhMTQ0NGVmZDEzZmRhYzVlZWE4YWRhODk3NWQ0ZGU1NDlhNzVjZTUyOTU -->
@@ -43,6 +44,7 @@
     
     
     </div>
+    <footer id="footer"></footer>
 </body>
 </html>
 <script type="module">
@@ -50,5 +52,9 @@
 
     let nav = document.getElementById("navbar");
     nav.innerHTML = navbar();
+   
+    import footer from "./components/footer.js"
+    let foot = document.getElementById("footer")
+    foot.innerHTML= footer()
 </script>
 
