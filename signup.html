@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/index.css">
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -29,9 +31,7 @@
   }
 </style>
 <body>
-    <div id="navbar">
-      
-    </div>
+    <div id="navbar"></div>
     <div id="signindiv">
         <form id="signup-form" onsubmit="signup(event)">
             <h1>Signup</h1>
@@ -66,5 +66,12 @@
           <a href="signin.html"><h4>Sign in insted</h4></a>
     </div>
 </body>
-<script src="./scripts/signup.js"></script>
+
 </html>
+<script src="./scripts/signup.js"></script>
+<script type="module">
+  import navbar from "./components/navbar.js"
+
+  let nav = document.getElementById("navbar");
+  nav.innerHTML = navbar();
+</script>
