@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./styles/footer.css">
 </head>
 <style>
     * {
@@ -51,7 +52,15 @@
         </form>
         <a href="signup.html"><h4>Create Account</h4></a>
       </div>
-      
+      <footer id="footer"></footer>
     </body>
 <script src="./scripts/login.js"></script>
 </html>
+<script type="module">
+  import navbar from "./components/navbar.js"
+  import footer from "./components/footer.js"
+  let nav = document.getElementById("navbar");
+  let foot = document.getElementById("footer")
+  nav.innerHTML = navbar();
+  foot.innerHTML= footer()
+</script>
